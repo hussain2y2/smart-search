@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 import { ExtractionService } from './extraction.service';
 
-@Controller('extraction')
+@Controller('extract')
 export class ExtractionController {
   constructor(private readonly extractionService: ExtractionService) {}
 
